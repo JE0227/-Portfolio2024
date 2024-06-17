@@ -2,11 +2,11 @@
     background-image: url("../images/p000.png");
 }
 #about{
-    background-image: url("../images/p1.jpg");
+    background-image: url("../images/cv.png");
 }
-#news{
+/* #news{
     background-image: url("../images/p2.jpg");
-}
+} */
 #service{
     background-image: url("../images/p3.jpg");
 }
@@ -23,16 +23,25 @@ section{
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
-    padding-top: 150px;
+    padding-top: 300px;
 }
 .txt-bg{
-    background-color: rgba(189, 179, 169, 0.6);
-    border-radius: 50px;
+    background-color: rgba(189, 179, 169, 0.2);
+    border-radius: 10px;
     text-align: justify;
-    padding: 50px;
-    width: 800px;
-    margin:auto;
+    padding: 20px 60px;
+    width: 1000px;
+    margin-right: 100px;
+    color: rgb(48, 30, 18);
+    /* margin-left: 100px ; */
 }
 .txt-bg h2{
-    text-align: center;
+    text-align:left;
+    font-weight: bold;
+    
+}
+.txt-bg p{
+    text-align:left;
+    font-size: 20px;
+    
 }
